@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>rave.re - marketplace</title>
+  <link rel="icon" type="image/png" href="rave.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZJT39793L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RZJT39793L');
+  </script>
+</head>
+<body class="main">
+
+  <header class="forum-topbar">
+    <div class="container forum-topbar-inner">
+      <a class="forum-brand" href="index.html" aria-label="rave.re home">
+        <img src="rave.png" alt="" />
+        <span>RAVE.re</span>
+      </a>
+
+      <div class="forum-topbar-actions">
+        <a class="forum-action-btn ghost" href="#">Sign Up</a>
+        <a class="forum-action-btn ghost" href="#">Log In</a>
+
+        <button class="forum-icon-btn" type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Zm0-2a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Zm7.8 4.2-4.1-4.1 1.4-1.4 4.1 4.1-1.4 1.4Z" fill="currentColor"/>
+          </svg>
+        </button>
+        <button class="forum-icon-btn" type="button" aria-label="Menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16v2H4V7Zm0 6h16v2H4v-2Zm0 6h16v2H4v-2Z" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="forum">
+    <div class="container">
+      <section class="forum-hero" aria-label="Forum header">
+        <div class="forum-hero-dots" aria-hidden="true"></div>
+        <div class="forum-hero-banner">
+          <span class="brand-name">RAVE<span class="brand-tld">.re</span></span>
+        </div>
+      </section>
+
+      <section class="forum-list" aria-label="Categories">
+        <article class="forum-row forum-row-announce" data-forum="announcements">
+          <div class="forum-row-stripe" aria-hidden="true"></div>
+
+          <div class="forum-row-left">
+            <div class="forum-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 11v2h8v-2H3Zm0-6v2h14V5H3Zm0 12v2h10v-2H3Zm15.5-3a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm0 2c-2.6 0-6.5 1.3-6.5 4v1h13v-1c0-2.7-3.9-4-6.5-4Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="forum-row-text">
+              <h2>Announcements</h2>
+              <p>Announcements about the global rave.re project will be posted here.</p>
+              <div class="forum-tags">
+                <a href="#" class="forum-tag">Release Notes</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="forum-row-right">
+            <div class="forum-stats">3 / month</div>
+            <ul class="forum-topics">
+              <li><a href="#">Spring 2026 Updates Sale</a> <span class="forum-age">18d</span></li>
+              <li><a href="#">Development Update: Marketplace v1</a> <span class="forum-age">15d</span></li>
+              <li><a href="#">Community Spotlight: March 2026</a> <span class="forum-age">24d</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="forum-row forum-row-owners" data-forum="server-owners">
+          <div class="forum-row-stripe" aria-hidden="true"></div>
+
+          <div class="forum-row-left">
+            <div class="forum-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2 9 8 3 9l4.5 4.3L6.5 20 12 16.7 17.5 20l-1-6.7L21 9l-6-1-3-6Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="forum-row-text">
+              <h2>Server Owners</h2>
+              <p>This is a category the <span class="forum-pill">@server_owners</span> group can use to discuss matters.</p>
+            </div>
+          </div>
+
+          <div class="forum-row-right">
+            <div class="forum-stats">3 / month</div>
+            <ul class="forum-topics">
+              <li><a href="#">CPU Usage</a> <span class="forum-age">9d</span></li>
+              <li><a href="#">Server crash 2/3 times daily</a> <span class="forum-age">9d</span></li>
+              <li><a href="#">New to all this</a> <span class="forum-age">10d</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="forum-row forum-row-cookbook" id="scamlogs-section" data-forum="scamlogs">
+          <div class="forum-row-stripe" aria-hidden="true"></div>
+
+          <div class="forum-row-left">
+            <div class="forum-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 3h11a2 2 0 0 1 2 2v16H7a3 3 0 0 0-3 3V6a3 3 0 0 1 2-3Zm1 4h10V5H7v2Zm0 4h10V9H7v2Zm0 4h7v-2H7v2Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="forum-row-text">
+              <h2>Scamlogs</h2>
+              <p>Reports of scams and fraudulent activities in the marketplace.</p>
+              <div class="forum-tags">
+                <a href="#" class="forum-tag teal">Scam Reports</a>
+                <a href="#" class="forum-tag orange">Staff Logs</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="forum-row-right">
+            <div class="forum-stats" id="scamlogs-count">0</div>
+            <ul class="forum-topics" id="scamlogs-list">
+              <!-- Scam logs will be loaded here -->
+            </ul>
+          </div>
+        </article>
+
+        <article class="forum-row forum-row-sdk" data-forum="ravedk">
+          <div class="forum-row-stripe" aria-hidden="true"></div>
+
+          <div class="forum-row-left">
+            <div class="forum-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M11 2h2v3h-2V2Zm6.4 2.6 1.4 1.4-2.1 2.1-1.4-1.4 2.1-2.1ZM4.6 6l1.4-1.4 2.1 2.1-1.4 1.4L4.6 6ZM12 6a6 6 0 0 1 6 6c0 2.1-1.1 3.9-2.7 5v3H8.7v-3A5.97 5.97 0 0 1 6 12a6 6 0 0 1 6-6Zm-2 16h4v-2h-4v2Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="forum-row-text">
+              <h2>RaveDK</h2>
+              <p>The rave.re development kit.</p>
+              <div class="forum-tags">
+                <a href="#" class="forum-tag teal">RaveDK Feedback</a>
+                <a href="#" class="forum-tag teal">RaveDK Discussion</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="forum-row-right">
+            <div class="forum-stats">193</div>
+            <ul class="forum-topics">
+              <li><a href="#">Server list query returned an error: EOF</a> <span class="forum-age">28d</span></li>
+              <li><a href="#">Rave dev kit</a> <span class="forum-age">Mar 8</span></li>
+              <li><a href="#">Future of RaveDK</a> <span class="forum-age">Feb 12</span></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <!-- Forum Detail Modal -->
+  <div class="forum-modal-overlay" id="forumModal">
+    <div class="forum-modal">
+      <button class="forum-modal-close" id="modalClose">✕</button>
+      
+      <div class="forum-modal-header">
+        <h1 id="modalTitle">Announcements</h1>
+        <p id="modalDesc">Announcements about the global rave.re project will be posted here.</p>
+      </div>
+
+      <div class="forum-modal-tabs">
+        <button class="forum-modal-tab active" data-tab="latest">Latest</button>
+        <button class="forum-modal-tab" data-tab="top">Top</button>
+        <button class="forum-modal-tab" data-tab="hot">Hot</button>
+      </div>
+
+      <div class="forum-modal-list">
+        <div class="forum-modal-list-header">
+          <div class="col-topic">Topic</div>
+          <div class="col-replies">Replies</div>
+          <div class="col-views">Views</div>
+          <div class="col-activity">Activity</div>
+        </div>
+        
+        <div id="modalTopics" class="forum-modal-topics">
+          <!-- Topics will be inserted here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const forumData = {
+      announcements: {
+        title: 'Announcements',
+        desc: 'Announcements about the global rave.re project will be posted here.',
+        topics: [
+          { title: 'Spring 2026 Updates Sale', replies: 0, views: '3.1k', date: '19d' },
+          { title: 'Development Update: Marketplace v1', replies: 103, views: '28.2k', date: '16d' },
+          { title: 'Community Spotlight: March 2026', replies: 17, views: '4.3k', date: '26d' }
+        ]
+      },
+      'server-owners': {
+        title: 'Server Owners',
+        desc: 'Discussion space for server owners and operators to share updates.',
+        topics: [
+          { title: 'CPU Usage', replies: 5, views: '240', date: '9d' },
+          { title: 'Server crash 2/3 times daily', replies: 12, views: '520', date: '9d' },
+          { title: 'New to all this', replies: 3, views: '180', date: '10d' }
+        ]
+      },
+      scamlogs: {
+        title: 'Scamlogs',
+        desc: 'Reports of scams and fraudulent activities in the marketplace.',
+        topics: [
+          { title: 'User XXX attempted money scam', replies: 8, views: '1.2k', date: '2d' },
+          { title: 'Fake item listing - beware', replies: 15, views: '3.4k', date: '4d' },
+          { title: 'Refund dispute case closed', replies: 6, views: '890', date: '7d' }
+        ]
+      },
+      ravedk: {
+        title: 'RaveDK',
+        desc: 'The rave.re development kit discussion space for feedback and ideas.',
+        topics: [
+          { title: 'Server list query returned an error: EOF', replies: 28, views: '2.1k', date: '28d' },
+          { title: 'Rave dev kit v2.0 released', replies: 45, views: '5.2k', date: 'Mar 8' },
+          { title: 'Future of RaveDK', replies: 93, views: '12.5k', date: 'Feb 12' }
+        ]
+      }
+    };
+
+    const modal = document.getElementById('forumModal');
+    const modalClose = document.getElementById('modalClose');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDesc = document.getElementById('modalDesc');
+    const modalTopics = document.getElementById('modalTopics');
+    const modalTabs = document.querySelectorAll('.forum-modal-tab');
+
+    let currentForum = null;
+    let currentTab = 'latest';
+
+    function openForum(forumKey) {
+      const data = forumData[forumKey];
+      currentForum = forumKey;
+      currentTab = 'latest';
+
+      modalTitle.textContent = data.title;
+      modalDesc.textContent = data.desc;
+      
+      renderTopics(data.topics);
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeForum() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function renderTopics(topics) {
+      modalTopics.innerHTML = '';
+      topics.forEach(topic => {
+        const row = document.createElement('div');
+        row.className = 'forum-modal-topic-row';
+        row.innerHTML = `
+          <div class="col-topic">
+            <a href="#">${topic.title}</a>
+          </div>
+          <div class="col-replies">${topic.replies}</div>
+          <div class="col-views">${topic.views}</div>
+          <div class="col-activity">${topic.date}</div>
+        `;
+        modalTopics.appendChild(row);
+      });
+    }
+
+    // Event listeners
+    document.querySelectorAll('[data-forum]').forEach(row => {
+      row.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        openForum(row.dataset.forum);
+      });
+    });
+
+    modalClose.addEventListener('click', closeForum);
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeForum();
+    });
+
+    modalTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        modalTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        currentTab = tab.dataset.tab;
+      });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeForum();
+      }
+    });
+
+    // Load scamlogs
+    async function loadScamlogs() {
+      try {
+        const response = await fetch('/api/scamlogs');
+        const scamlogs = await response.json();
+        
+        const countElement = document.getElementById('scamlogs-count');
+        const listElement = document.getElementById('scamlogs-list');
+        
+        countElement.textContent = scamlogs.length;
+        
+        listElement.innerHTML = '';
+        scamlogs.slice(0, 3).forEach(log => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = '#';
+          a.textContent = log.title;
+          const span = document.createElement('span');
+          span.className = 'forum-age';
+          span.textContent = new Date(log.timestamp).toLocaleDateString();
+          li.appendChild(a);
+          li.appendChild(span);
+          listElement.appendChild(li);
+        });
+      } catch (error) {
+        console.error('Error loading scamlogs:', error);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadScamlogs);
+  </script>
+
+</body>
+</html>
